@@ -14,10 +14,10 @@ resp_Y <- Data[, 9]
 # principal components analysis using correlation matrix
 pca <- princomp(pred_X, cor = TRUE) 
 
-# principal component 5 scores (negated for convenience)
+# principal component 5 scores
 pc_scr5 <- pca$scores[, 5] 
 
-# principal component 6 scores (negated for convenience)
+# principal component 6 scores
 pc_scr6 <- pca$scores[, 6] 
 
 # 2) K-Means
